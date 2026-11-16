@@ -1,0 +1,28 @@
+#tartalom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.kepKeret {
+    width: 240px;
+    padding: 10px;
+    border: 2px solid #555;
+    box-shadow: #7E7E7E 3px 9px 41px;
+    border-radius: 10px;
+}
+
+.kepKeret img {
+    width: 100%;
+    border-radius: 20px;
+}
+.alt {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+}
+.kepKeret p {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+}
