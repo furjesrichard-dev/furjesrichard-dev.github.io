@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaf2f8;
+    font-family: Arial, sans-serif;
+}
+
+#napkeresoDoboz {
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    display: block;
+    margin: 18px auto;
+    padding: 8px;
+}
+
+button {
+    padding: 9px 14px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #2874a6;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b4f72;
+}
+
+#eredmeny {
+    font-weight: bold;
+}

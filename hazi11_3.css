@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaf2f8;
+    font-family: Arial, sans-serif;
+}
+
+#rendszerezoDoboz {
+    width: 600px;
+    max-width: 85%;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+h2 {
+    color: #1b4f72;
+}
+
+h1 {
+    text-align: center;
+}
+
+.datumSor {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.datumSor label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+#napValaszto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+#napValaszto label {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #eaf2f8;
+}
+
+button {
+    padding: 10px 16px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #2874a6;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b4f72;
+}
+
+#talalatok li {
+    margin: 6px 0;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Rendszerező</title>
+    <link rel="stylesheet" href="hazi11_3.css">
+</head>
+<body>
+    <main id="rendszerezoDoboz">
+    <h1>Rendszerező</h1>
+
+    <div class="datumSor">
+        <label for="kezdoDatum">
+            Kezdő dátum:
+            <input id="kezdoDatum" type="date">
+        </label>
+
+        <label for="zaroDatum">
+            Záró dátum:
+            <input id="zaroDatum" type="date">
+        </label>
+    </div>
+
+    <h2>Mely napokat keressük?</h2>
+
+    <div id="napValaszto">
+        <label><input type="checkbox" value="1"> Hétfő</label>
+        <label><input type="checkbox" value="2"> Kedd</label>
+        <label><input type="checkbox" value="3"> Szerda</label>
+        <label><input type="checkbox" value="4"> Csütörtök</label>
+        <label><input type="checkbox" value="5"> Péntek</label>
+        <label><input type="checkbox" value="6"> Szombat</label>
+        <label><input type="checkbox" value="0"> Vasárnap</label>
+    </div>
+
+    <button id="keresesGomb" type="button">Keresés</button>
+
+    <h2>Találatok</h2>
+    <ul id="talalatok"></ul>
+</main>
+
+<script src="hazi11_3.js" defer></script>
+
+    <script src="hazi11_3.js" defer></script>
+</body>
+</html>
